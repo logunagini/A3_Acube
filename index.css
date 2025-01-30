@@ -1,0 +1,88 @@
+/* General Styles */
+
+
+.container {
+    background-color: rgb(236, 177, 67);
+    padding-bottom: 20px;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+    border-radius: 10px;
+}
+
+/* Heading */
+.headName {
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(34, 34, 97);
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+
+/* Form Styles */
+.input-group .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1em;
+}
+
+.input-group .btn {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.input-group .btn:hover {
+    background-color: #2980b9;
+}
+
+/* Message Section */
+#msg {
+    text-align: center;
+    color: red;
+    display: none;
+    margin-bottom: 20px;
+    font-size: 1em;
+    padding: 15px;
+    border: 1px solid #bdc3c7;
+    background: #ecf0f1;
+    border-radius: 8px;
+}
+
+
+/* Output Text */
+#output {
+    font-size: 1.2em;
+    margin-top: 20px;
+    /* color: #2c3e50; */
+}
+
+/* Recipe Details & Items */
+#details {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.singleItem {
+    cursor: pointer;
+}
+
+

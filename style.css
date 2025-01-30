@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* Heading */
+.headName {
+    font-size: 2em;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+/* Form Styles */
+.input-group .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1em;
+}
+
+.input-group .btn {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.input-group .btn:hover {
+    background-color: #2980b9;
+}
+
+/* Message Section */
+#msg {
+    font-size: 1em;
+    color: #7f8c8d;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #bdc3c7;
+    background: #ecf0f1;
+    border-radius: 8px;
+}
+
+/* Voice Search Button */
+#start-btn {
+    font-size: 1.2em;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#start-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Output Text */
+#output {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+/* Recipe Details & Items */
+#details, #items {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .headName {
+        font-size: 1.8em;
+    }
+
+    .input-group .form-control, .input-group .btn {
+        font-size: 0.9em;
+    }
+
+    #start-btn {
+        font-size: 1em;
+        padding: 12px 30px;
+    }
+}

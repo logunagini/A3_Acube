@@ -1,6 +1,196 @@
 /* General Styles */
 
+body {
+    font-family: serif;
+    /* background-color: #000; */
+    color: white;
+}
+.hero-section {
+    background-color: #fff;
+    color: #000;
+    padding: 50px 20px;
+}
+.hero-text h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.hero-text p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+}
+.search-box input {
+    width: 135%;
+    padding: 15px;
+    padding-left: 50px !important;
+    border: 2px solid #d38b5d;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+}
+.search-box input::placeholder {
+    color: #888;
+}
+.subscribe-section {
+    background-color: #d38b5d;
+    padding: 40px 20px;
+    color: #fff;
+    text-align: center;
+}
+.subscribe-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.subscribe-section input {
+    padding: 15px;
+    border: none;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+.subscribe-section button {
+    padding: 15px 30px;
+    background-color: #2c9f47;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 50%;
+}
+.voice-button {
+margin-left: 22% !important;
+width: 70px;  /* Smaller width */
+height: 70px; /* Smaller height */
+background-color: #fff;
+padding: 10px !important;
+border-radius: 50%;  /* Perfect round shape */
+border: 2px solid #d38b5d;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Soft shadow */
+transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
 
+.voice-button:hover {
+background-color: #f9f9f9;
+transform: scale(1.1); /* Slight scale effect on hover */
+
+}
+
+.voice-button i {
+font-size: 23px; /* Smaller microphone icon */
+color: #d38b5d;
+}
+
+@media (max-width: 663px) {
+.hero-text h1 {
+font-size: 1.5rem;
+}
+.hero-text p {
+font-size: 1rem;
+}
+.hero-image img {
+width: 100%;
+max-width: 300px;
+}
+
+.search-box{
+flex-direction: column; /* Stack on smaller tablets */
+align-items: center;
+/* margin-left: 40% !important; */
+}
+
+.search-box input {
+width: 150%; /* Full width on tablet */
+font-size: medium;
+}
+
+.voice-button {
+margin-top: 5px;
+}
+
+}
+@media (max-width: 498px) {
+.hero-text h1 {
+font-size: 1.2rem;
+}
+.hero-text p {
+font-size: 0.8rem;
+}
+.hero-image img {
+width: 100%;
+max-width: 200px;
+}
+.search-box input {
+
+width: 250%;
+padding-right: 5%;
+margin-right: 50% !important;
+font-size: small;
+margin-top: 5%;
+}
+
+.search-box{
+flex-direction: column; /* Keep buttons in one line */
+align-items: start;
+
+}
+
+.search-box input {
+width: 270%; /* Adjust width */
+/* padding: 5px; */
+font-size: small;
+margin-right: 20% !important;
+}
+
+.voice-button {
+margin-left: 60% !important; /* Adjust spacing */
+padding: 15% !important;
+}
+
+.voice-button i {
+font-size: 13px;
+color: #d38b5d;
+}
+
+}
+@media (min-width: 500px) and (max-width: 662px) {
+.search-box input {
+width: 250%;
+padding-right: 5%;
+margin-right: 50% !important;
+font-size: medium;
+margin-top: 5%;
+}
+
+.search-box{
+flex-direction: row; /* Keep buttons in one line */
+align-items: center;
+/* margin-right: 20% !important; */
+}
+
+.search-box input {
+width: 270%; /* Adjust width */
+/* padding: 5px; */
+font-size: medium;
+}
+
+.voice-button {
+margin-left: 50% !important; /* Adjust spacing */
+padding: 10% !important;
+}
+
+.voice-button i {
+font-size: 13px;
+color: #d38b5d;
+}
+}
 .container {
     background-color: rgb(236, 177, 67);
     padding-bottom: 20px;

@@ -4,11 +4,14 @@ body {
     font-family: serif;
     /* background-color: #000; */
     color: white;
+  
 }
 .hero-section {
     background-color: #fff;
     color: #000;
+  
     padding: 50px 20px;
+   
 }
 .hero-text h1 {
     font-size: 2rem;
@@ -58,8 +61,9 @@ body {
 }
 .hero-image img {
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     border-radius: 50%;
+    margin-bottom: 10% !important;
 }
 .voice-button {
 margin-left: 22% !important;
@@ -121,7 +125,7 @@ margin-top: 5px;
 font-size: 1.2rem;
 }
 .hero-text p {
-font-size: 0.8rem;
+font-size: 10px;
 }
 .hero-image img {
 width: 100%;
@@ -141,11 +145,16 @@ flex-direction: column; /* Keep buttons in one line */
 align-items: start;
 
 }
+.logo{
+    align-items: center;
+    margin-left: 25% !important;
+
+}
 
 .search-box input {
 width: 270%; /* Adjust width */
 /* padding: 5px; */
-font-size: small;
+font-size: 8px;
 margin-right: 20% !important;
 }
 
@@ -178,7 +187,7 @@ align-items: center;
 .search-box input {
 width: 270%; /* Adjust width */
 /* padding: 5px; */
-font-size: medium;
+font-size: small;
 }
 
 .voice-button {

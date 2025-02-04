@@ -127,10 +127,10 @@ font-size: 1.2rem;
 .hero-text p {
 font-size: 10px;
 }
-.hero-image img {
+/* .hero-image img {
 width: 100%;
 max-width: 200px;
-}
+} */
 .search-box input {
 
 width: 250%;
@@ -138,6 +138,10 @@ padding-right: 5%;
 margin-right: 50% !important;
 font-size: small;
 margin-top: 5%;
+}
+.hero-image img{
+    display: none;
+
 }
 
 .search-box{
@@ -160,7 +164,7 @@ margin-right: 20% !important;
 
 .voice-button {
 margin-left: 60% !important; /* Adjust spacing */
-padding: 15% !important;
+padding: 10% !important;
 }
 
 .voice-button i {

@@ -4,6 +4,7 @@ body {
     font-family: serif;
     /* background-color: #000; */
     color: white;
+    padding-top: 100px; 
   
 }
 .hero-section {
@@ -127,6 +128,7 @@ font-size: 1.2rem;
 .hero-text p {
 font-size: 10px;
 }
+
 /* .hero-image img {
 width: 100%;
 max-width: 200px;
@@ -149,11 +151,7 @@ flex-direction: column; /* Keep buttons in one line */
 align-items: start;
 
 }
-.logo{
-    align-items: center;
-    margin-left: 25% !important;
-
-}
+/*  */
 
 .search-box input {
 width: 270%; /* Adjust width */

@@ -68,8 +68,8 @@ body {
 }
 .voice-button {
 margin-left: 22% !important;
-width: 70px;  /* Smaller width */
-height: 70px; /* Smaller height */
+width: 80px;  /* Smaller width */
+height: 80px; /* Smaller height */
 background-color: #fff;
 padding: 10px !important;
 border-radius: 50%;  /* Perfect round shape */
